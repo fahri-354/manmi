@@ -1,6 +1,6 @@
 let fs = require('fs')
 global.data = JSON.parse(fs.readFileSync('./data.json'))
-global.owner = JSON.parse(fs.readFileSync('./src/owner.json')) // Put your number to /src/owner.json
+global.owner = JSON.parse(fs.readFileSync('6287785175535 ')) // Put your number to /src/owner.json
 global.mods = JSON.parse(fs.readFileSync('./src/moderator.json')) // Want some help?
 
 global.APIs = { // API Prefix
